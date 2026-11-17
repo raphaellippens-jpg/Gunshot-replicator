@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RIFLE Simulator</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="sim">
+  <header class="topbar"><a class="back" href="index.html">← LOADOUT MENU</a><span class="tag">SIMULATION / 01</span></header>
+  <h2>RIFLE</h2><p class="desc">Precision platform · Visual firing simulation</p>
+  <section class="stage" aria-label="Visual firing simulation">
+    <div class="aim"><i></i></div><div class="weapon-shape"></div><div id="count" class="count">3</div>
+  </section>
+  <div class="controls"><button id="shoot" class="shoot">SHOOT</button><span id="status" class="status">READY</span></div>
+  <p class="hint">Press SHOOT to start the 3-second countdown. The screen flicker marks the simulated shot.</p>
+</main><div id="flash" class="flash"></div><script src="weapon.js"></script></body></html>
